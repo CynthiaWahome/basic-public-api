@@ -97,11 +97,6 @@ https://basic-public-api-d1f963692f67.herokuapp.com/
 
 ## 🔗 Additional Resources
 - [Python Developers](https://hng.tech/hire/python-developers)
-- [C# Developers](https://hng.tech/hire/csharp-developers)
-- [Golang Developers](https://hng.tech/hire/golang-developers)
-- [PHP Developers](https://hng.tech/hire/php-developers)
-- [Java Developers](https://hng.tech/hire/java-developers)
-- [Node.js Developers](https://hng.tech/hire/nodejs-developers)
 
 ---
 
