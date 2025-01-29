@@ -16,8 +16,8 @@ CORS(app)  # Enable CORS
 @app.route("/", methods=["GET"])
 def home():
     response = {
-        "email": os.getenv("EMAIL"),
         "current_datetime": datetime.utcnow().replace(microsecond=0).isoformat() + "Z",  # ISO 8601 UTC
+        "email": os.getenv("EMAIL"),
         "github_url": "https://github.com/CynthiaWahome/basic-public-api"
     }
     return jsonify(response), 200
