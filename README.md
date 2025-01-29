@@ -89,7 +89,7 @@ The API is deployed to a **publicly accessible endpoint**.
 
 ### **Live URL**
 ```
-https://your-deployment-url.com/
+https://basic-public-api-d1f963692f67.herokuapp.com/
 ```
 
 ---
