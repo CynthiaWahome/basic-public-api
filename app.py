@@ -9,7 +9,7 @@ import random
 class Config:
     DEBUG = True
     HOST = "0.0.0.0"
-    PORT = 5000
+    PORT = int(os.environ.get("PORT", 5000))  # Use the PORT environment variable
 
 def get_quotes():
     return [
