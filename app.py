@@ -29,7 +29,7 @@ def home():
     response = {
         "email": os.getenv("EMAIL"),
         "current_datetime": datetime.utcnow().replace(microsecond=0).isoformat() + "Z",  # ISO 8601 UTC
-        "github_url": "https://github.com/CynthiaWahome/basic-public-api.git",
+        "github_url": "https://github.com/CynthiaWahome/basic-public-api",
         "track": "Backend",
         "server_info": {
             "os": platform.system(),
